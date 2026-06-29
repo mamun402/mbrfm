@@ -1,5 +1,5 @@
 const CTASection = () => (
-  <section className="px-4 pb-20 sm:px-6 lg:px-8">
+  <section id="quote" className="px-4 pb-20 sm:px-6 lg:px-8">
     <div className="mx-auto max-w-7xl overflow-hidden rounded-[2rem] bg-[radial-gradient(circle_at_left,_rgba(239,58,4,0.2),_transparent_35%),linear-gradient(135deg,_#383838_0%,_#232323_100%)] px-6 py-16 text-white shadow-2xl sm:px-10 lg:px-14">
       <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-2xl">

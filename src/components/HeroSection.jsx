@@ -33,13 +33,13 @@ const HeroSection = () => (
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <a
-            href="#contact"
+            href="#quote"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-[#ef3a04] px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#c82f00]"
           >
             Get a Free Quote <FaArrowRight />
           </a>
           <a
-            href="#services"
+            href="#contact"
             className="inline-flex items-center justify-center rounded-full border border-white/25 px-6 py-3.5 font-semibold text-white transition hover:border-[#ef3a04] hover:text-[#ef3a04]"
           >
             Contact Us
