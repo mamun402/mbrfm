@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules/
 dist/
 .env
@@ -28,3 +29,8 @@ dist-ssr
 *.sln
 *.sw?
 >>>>>>> b4af943 (add)
+=======
+node_modules/
+dist/
+.env
+>>>>>>> 866be3326a371a5feae29c44a99da8e18540cdd3
