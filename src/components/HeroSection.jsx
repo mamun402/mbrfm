@@ -1,6 +1,17 @@
 import { motion } from 'framer-motion'
 import { FaArrowRight } from 'react-icons/fa'
 
+const scrollToSection = (event, id) => {
+  event.preventDefault()
+  const section = document.getElementById(id)
+  const header = document.querySelector('header')
+  const offset = header ? header.offsetHeight + 16 : 96
+  if (section) {
+    const top = section.getBoundingClientRect().top + window.pageYOffset - offset
+    window.scrollTo({ top, behavior: 'smooth' })
+  }
+}
+
 const HeroSection = () => (
   <section id="home" className="relative overflow-hidden bg-slate-950">
     <div
@@ -33,16 +44,18 @@ const HeroSection = () => (
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <a
-            href="#quote"
+            href="#contact"
+            onClick={(event) => scrollToSection(event, 'contact')}
             className="inline-flex items-center justify-center gap-2 rounded-full bg-[#ef3a04] px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#c82f00]"
           >
-            Get a Free Quote <FaArrowRight />
+            Contact Us <FaArrowRight />
           </a>
           <a
-            href="#contact"
+            href="#services"
+            onClick={(event) => scrollToSection(event, 'services')}
             className="inline-flex items-center justify-center rounded-full border border-white/25 px-6 py-3.5 font-semibold text-white transition hover:border-[#ef3a04] hover:text-[#ef3a04]"
           >
-            Contact Us
+            Our Services
           </a>
         </div>
       </motion.div>

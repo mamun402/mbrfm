@@ -1,15 +1,15 @@
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa'
 
 const contactItems = [
-  { label: 'Phone', value: '+971 4 123 4567', icon: FaPhoneAlt, href: 'tel:+971 55 636 2982' },
-  { label: 'Email', value: 'info@mbrfacilities.com', icon: FaEnvelope, href: 'mailto:support@mbrfm.com' },
+  { label: 'Phone', value: '+971 55 636 2982', icon: FaPhoneAlt, href: 'tel:+971 55 636 2982' },
+  { label: 'Email', value: 'support@mbrfm.com', icon: FaEnvelope, href: 'mailto:support@mbrfm.com' },
   { label: 'Address', value: 'Abu Dhabi, United Arab Emirates', icon: FaMapMarkerAlt, href: 'https://maps.app.goo.gl/qfbRrjg86BM2BeA47' },
 ]
 
 const ContactSection = () => (
-  <section id="contact" className="px-4 py-20 sm:px-6 lg:px-8">
+  <section className="px-4 py-20 sm:px-6 lg:px-8">
     <div className="mx-auto max-w-7xl">
-      <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+      <div id="contact" className="space-y-8">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#ef3a04]">Contact Us</p>
           <h2 className="mt-4 text-3xl font-semibold text-[#383838] sm:text-4xl">
@@ -34,21 +34,6 @@ const ContactSection = () => (
               )
             })}
           </div>
-        </div>
-
-        <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm sm:p-10">
-          <form className="space-y-5">
-            <div className="grid gap-5 sm:grid-cols-2">
-              <input className="rounded-2xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[#ef3a04]" placeholder="Your Name" />
-              <input className="rounded-2xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[#ef3a04]" placeholder="Email Address" />
-            </div>
-            <input className="w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[#ef3a04]" placeholder="Phone Number" />
-            <input className="w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[#ef3a04]" placeholder="Subject" />
-            <textarea className="min-h-36 w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[#ef3a04]" placeholder="Tell us about your project" />
-            <button type="button" className="rounded-full bg-[#ef3a04] px-6 py-3.5 font-semibold text-white transition hover:bg-[#c82f00]">
-              Send Message
-            </button>
-          </form>
         </div>
       </div>
 

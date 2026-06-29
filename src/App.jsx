@@ -8,7 +8,6 @@ import WhyChooseUsSection from './components/WhyChooseUsSection'
 import StatsSection from './components/StatsSection'
 import PortfolioSection from './components/PortfolioSection'
 import TestimonialsSection from './components/TestimonialsSection'
-import CTASection from './components/CTASection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 
@@ -49,7 +48,6 @@ function App() {
       <StatsSection />
       <PortfolioSection />
       <TestimonialsSection />
-      <CTASection />
       <ContactSection />
       <Footer />
 

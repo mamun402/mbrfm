@@ -5,7 +5,6 @@ const links = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Projects', href: '#portfolio' },
-  { label: 'Contact', href: '#contact' },
 ]
 
 const Navbar = () => {
@@ -58,7 +57,7 @@ const Navbar = () => {
           href="#contact"
           className="hidden rounded-full bg-[#ef3a04] px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#c82f00] md:inline-flex"
         >
-          Get a Quote
+          Contact Us
         </a>
 
         <button
@@ -89,7 +88,7 @@ const Navbar = () => {
               className="mt-2 inline-flex rounded-full bg-[#ef3a04] px-4 py-2 text-sm font-semibold text-white"
               onClick={() => setOpen(false)}
             >
-              Get a Quote
+              Contact Us
             </a>
           </div>
         </div>
