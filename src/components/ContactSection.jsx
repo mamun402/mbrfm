@@ -1,7 +1,7 @@
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa'
 
 const contactItems = [
-  { label: 'Phone', value: '+971 55 636 2982', icon: FaPhoneAlt, href: 'tel:+971 55 636 2982' },
+  { label: 'Phone', value: '+971 2 234 0001', icon: FaPhoneAlt, href: 'tel:+971 2 234 0001' },
   { label: 'Email', value: 'support@mbrfm.com', icon: FaEnvelope, href: 'mailto:support@mbrfm.com' },
   { label: 'Address', value: 'Abu Dhabi, United Arab Emirates', icon: FaMapMarkerAlt, href: 'https://maps.app.goo.gl/qfbRrjg86BM2BeA47' },
 ]
@@ -48,7 +48,7 @@ const ContactSection = () => (
     </div>
 
     <a
-      href="https://wa.me/971556362982"
+      href="https://wa.me/"
       target="_blank"
       rel="noreferrer"
       className="fixed bottom-6 right-6 z-40 flex items-center gap-3 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-2xl transition hover:-translate-y-1"
