@@ -33,10 +33,7 @@ const Navbar = () => {
           />
           <div>
             <p className="text-sm font-black uppercase tracking text-[#ef3a04]">
-              MBR
-            </p>
-            <p className="text-base font-black text-[#383838]">
-              Facilities Management
+              MBR Facilities Management
             </p>
           </div>
         </a>
