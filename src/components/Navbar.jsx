@@ -31,14 +31,9 @@ const Navbar = () => {
             alt="MBR logo"
             className="h-11 w-18"
           />
-          <div>
-            <p className="text-sm font-black uppercase tracking text-[#ef3a04]">
-              MBR Facilities Management
-            </p>
-          </div>
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="ml-auto hidden items-center gap-8 md:flex">
           {links.map((link) => (
             <a
               key={link.href}
@@ -52,7 +47,7 @@ const Navbar = () => {
 
         <a
           href="#contact"
-          className="hidden rounded-full bg-[#ef3a04] px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#c82f00] md:inline-flex"
+          className="ml-4 hidden rounded-full bg-[#ef3a04] px-5 py-2.5 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#c82f00] md:inline-flex"
         >
           Contact Us
         </a>
